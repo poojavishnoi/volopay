@@ -10,7 +10,7 @@ function Modal({ isOpen, closeModal }) {
 
   return (
     <div className=" fixed shadow-xl right-10 top-[8rem] border-2 rounded-lg flex items-center justify-center z-50">
-      <div className=" w-[30rem] bg-white rounded-lg pt-3">
+      <div className=" w-[20rem] m:w-[30rem] bg-white rounded-lg pt-3">
         <h2 className="font-bold text-gray-700 px-2 py-4 border-b-2 ">
           Filters
         </h2>
